@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Johnbosco’s Portfolio
 
-## Getting Started
+Personal frontend portfolio by **Nweke Johnbosco Chiemerie**, a Computer Science with Statistics student at the University of Nigeria, Nsukka.
 
-First, run the development server:
+I’m developing my skills through practical projects and looking for frontend internships, junior frontend roles, and opportunities to collaborate.
+
+## Live Website
+
+[Explore my portfolio](https://johnbosco-portfolio-xi.vercel.app/)
+
+## Features
+
+- Responsive layouts for mobile and desktop
+- Animated mechanical illustration in the homepage
+- Scroll reveal animations
+- Moving tools and learning resources marquee
+- About section with résumé viewing and download
+- Project showcase featuring CHOPLY
+- Contact links and a copy email button
+- Back to top navigation
+- Reduced motion support
+
+## Technologies
+
+- JavaScript
+- React
+- Next.js — App Router
+- Tailwind CSS
+- React Icons
+- Git and GitHub
+- Vercel
+
+## Featured Project: CHOPLY
+
+CHOPLY is a food ordering frontend built with HTML, CSS, and JavaScript.
+
+Features include cart total calculations, unique order IDs, favourites, popular food listings, and responsive layouts.
+
+**Status:** In development. Its current sign-in flow is a client-side prototype, without backend authentication.
+
+## Run Locally
+
+Install Node.js and Git, then run:
 
 ```bash
+git clone https://github.com/nwekejohnbosco908-pixel/johnbosco-portfolio.git
+cd johnbosco-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+On Windows PowerShell, use `npm.cmd` instead of `npm` if script execution is blocked.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Production Build
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+public/
+  images/       Portrait and project screenshots
+  resume/       Downloadable résumé
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+src/app/
+  page.js       Homepage and section composition
+  layout.js     Root layout and metadata
+  globals.css   Global styles and animations
+```
 
-## Deploy on Vercel
+Additional components inside `src/app` handle navigation, the mechanical illustration, scroll reveals, tools marquee, About, Projects, Contact, and Footer.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hosted on Vercel and connected to this GitHub repository. Updates pushed to the production branch trigger a new deployment.
+
+## Contact
+
+- Email: [nwekejohnbosco908@gmail.com](mailto:nwekejohnbosco908@gmail.com)
+- GitHub: [nwekejohnbosco908-pixel](https://github.com/nwekejohnbosco908-pixel)
+- LinkedIn: [Nweke Johnbosco](https://www.linkedin.com/in/nweke-johnbosco)
+- Facebook: [Nweke Bosco](https://www.facebook.com/Nweke.bosco)
