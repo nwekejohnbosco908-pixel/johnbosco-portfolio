@@ -60,7 +60,7 @@ export default function Projects() {
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-[#D9674E]/30 bg-[#D9674E]/10 px-3 py-1 text-[11px] font-semibold text-[#873E2D]">
                   <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-[#D9674E]" />
-                  In development
+                  Live frontend demo
                 </span>
                 <span className="text-xs text-[#68596B]">Personal project</span>
               </div>
@@ -81,16 +81,36 @@ export default function Projects() {
                 ))}
               </ul>
               <p className="mt-4 text-xs leading-relaxed text-[#68596B]">
-                Frontend prototype · Started June 2026
+                Deployed on Vercel · Started June 2026
               </p>
+              <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a
+                  href="https://choply-blue.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View CHOPLY live demo (opens in a new tab)"
+                  className="inline-flex min-h-11 items-center justify-center rounded-xl bg-[#352337] px-4 py-3 text-sm font-semibold text-[#FFFDF9] motion-safe:transition-colors hover:bg-[#503653] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#352337]"
+                >
+                  View live demo
+                </a>
+                <a
+                  href="https://github.com/nwekejohnbosco908-pixel/choply"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View CHOPLY source code on GitHub (opens in a new tab)"
+                  className="inline-flex min-h-11 items-center justify-center rounded-xl border border-[#352337]/20 px-4 py-3 text-sm font-semibold motion-safe:transition-colors hover:bg-[#352337]/5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#352337]"
+                >
+                  View code
+                </a>
+              </div>
             </div>
 
             <div className="min-w-0">
               <p className="text-sm leading-relaxed text-[#68596B] sm:text-base">
-                A food-ordering frontend with automatic cart totals,
-                unique order IDs, favourites, and a client-side sign-in
-                flow. I designed and built the interface, refining its
-                cards and layouts for phones and larger screens.
+                A responsive food-ordering Project with a searchable menu,
+                category filters, favourites, automatic cart totals, and
+                simulated order tracking. I shaped the visual direction
+                and refined the cards and layouts for phones and larger screens.
               </p>
 
               <details className="mt-4 border-t border-[#352337]/15 pt-2">
@@ -109,18 +129,18 @@ export default function Projects() {
                   <div>
                     <dt className="font-semibold">What I built</dt>
                     <dd className="mt-1 text-[#68596B]">
-                      JavaScript interactions for cart totals, favourites,
-                      and order identifiers, alongside responsive CSS layouts
-                      and a client-side sign-in flow.
+                      A shared dish catalogue, search and category filters,
+                      saved favourites, cart calculations, and unique order
+                      IDs, alongside responsive layouts and a client-side sign-in flow.
                     </dd>
                   </div>
                   <div>
                     <dt className="font-semibold">Current scope</dt>
                     <dd className="mt-1 text-[#68596B]">
-                      CHOPLY currently runs locally as a frontend prototype.
-                      Its sign-in flow is a demonstration, with no backend
-                      authentication. A public demo will be added after
-                      deployment.
+                      CHOPLY is live on Vercel as a frontend Project. Account,
+                      cart, and order data stay in the browser. Sign-in and
+                      tracking are demonstrations; there is no backend
+                      authentication, payment processing, or real delivery.
                     </dd>
                   </div>
                 </dl>
